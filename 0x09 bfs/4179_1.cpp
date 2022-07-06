@@ -27,6 +27,8 @@
 // bfs를 돌리고 그 큐에 들어간 것들 중 벽에 바로 도달하자마자(Joe Fire Joe에서) 
 // return 하니까 최소시간이지 않을까 ..?
 
+//큐에 원소들은 거리순으로 들어가니 최초로 탈출한 시간이 최소시간이다
+
 #include<bits/stdc++.h>
 using namespace std;
 int r, c;
