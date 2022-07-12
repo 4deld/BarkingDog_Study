@@ -1,4 +1,12 @@
-//51�� �ٿ��� FireD[nx][ny]!=-1�̰Ÿ� �˻縦 ���߾ WA ���Դµ� ������ �𸣰ڴ�
+//60번 줄에서 FireD[nx][ny]!=-1이거를 검사를 안했어서 WA 나왔는데 왜인지 모르겠다
+
+//Fire가 갇혀 있는 경우
+//3 4
+//...#
+//.J#F
+//...#
+//이러한 경우 Fire는 확산되지 못한다 따라서 .이 FireD에서 -1이고 당연히 FireD[nx][ny] <= JoeD[cur.first][cur.second] + 1이 만족된다
+//그럼 continue가 일어나서 IMPOSSIBLE이 출력된다
 
 
 #include<bits/stdc++.h>
